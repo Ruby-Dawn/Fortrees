@@ -15,7 +15,7 @@ header {
 
 
 body {
-	background-color: #ebefe9;
+	background-color: white;
 }
 
 ul {
@@ -41,30 +41,32 @@ ul li a {
 }
 
 ul li a:hover {
-	color: #356f19;
-  background-color: white;
+	color: white;
+  background-color: #6d4500;
 }
 
 .heading {
-	Color: #356f19;
+	Color: #6d4500;
 	font-family: Trebuchet MS;
 	text-align: center;
+	font-size: 60px;
 }
 
 p {
 	max-width: 100ch;
 	margin: 0 auto;
 	padding: 0 20px;
-	color: #356f19;
+	color: #595959;
 	text-align: center;
 	font-family: verdana;
+	font-size: 22px;
 }
 	
 .bold {
 	max-width: 100ch;
 	margin: 0 auto;
 	padding: 0 20px;
-	color: #356f19;
+	color: #595959;
 	text-align: center;
 	font-weight: bold;
 	font-family: verdana;
@@ -79,6 +81,8 @@ p {
 	width: auto;
 	display: block;
 	max-width: 500px;
+	border: solid #6d4500;
+	border-radius: 20px
 	
 }
 
@@ -95,7 +99,9 @@ p {
 .text-content {
 	flex: 1;
 	font-family: Trebuchet MS;
-	color: #356f19;
+	color: #6d4500;
+	font-size: 45;
+	
 }
 
 .services-photo {
@@ -103,6 +109,8 @@ p {
 	max-width: 350px;
 	width: 100%;
 	height: auto;
+	border: solid #6d4500;
+	border-radius: 10px;
 }
 
 @media (max-width: 768px;) {
@@ -177,6 +185,6 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-	background-color: #244d11;
+	background-color: #6d4500;
 }
 
