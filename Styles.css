@@ -51,14 +51,26 @@ ul li a:hover {
 	text-align: center;
 }
 
-
-.about-george {
+p {
 	max-width: 100ch;
 	margin: 0 auto;
 	padding: 0 20px;
-	color: Black;
+	color: #356f19;
 	text-align: center;
+	font-family: verdana;
 }
+	
+.bold {
+	max-width: 100ch;
+	margin: 0 auto;
+	padding: 0 20px;
+	color: #356f19;
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana;
+}
+	
+
 
 .Placeholder {
 	margin-left: auto;
@@ -112,3 +124,59 @@ footer {
 .footer-menu {
 	color: white;
 }
+
+form {
+	max-width: 500px;
+	margin: 40px auto;
+	padding: 30px;
+	background-color: #fcfcfc;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	
+}
+
+form label {
+	display: block;
+	margin-bottom: 8px;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	color: #356f19
+}
+
+form input[type="email"],
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 24px;
+	border: 1px solid #356f19;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+form input:focus,
+form textarea:focus {
+	border-color: #356f19;
+	outline: none;
+}
+
+form button[type="submit"] {
+	display:block;
+	width: 100%;
+	background-color: #356f19;
+	color: white;
+	padding: 14px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+	background-color: #244d11;
+}
+
