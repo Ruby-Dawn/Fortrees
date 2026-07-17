@@ -1,0 +1,114 @@
+
+
+header {
+		background-color: white;
+		display: block;
+}
+
+.header-logo {
+		height: 300px;
+		width: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+body {
+	background-color: #ebefe9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #356f19;
+  display: flex;
+  width: 100%;
+  font-family: verdana;
+}
+
+ul li {
+	flex: 1;
+	text-align: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+	color: #356f19;
+  background-color: white;
+}
+
+.heading {
+	Color: #356f19;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+
+.about-george {
+	max-width: 100ch;
+	margin: 0 auto;
+	padding: 0 20px;
+	color: Black;
+	text-align: center;
+}
+
+.Placeholder {
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: auto;
+	display: block;
+	max-width: 500px;
+	
+}
+
+.side-by-side {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	max-width: 1000px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.text-content {
+	flex: 1;
+	font-family: Trebuchet MS;
+	color: #356f19;
+}
+
+.services-photo {
+	flex: 1;
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 768px;) {
+	.side-by-side {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+
+
+
+footer {
+	background-color: #356f19;
+	color: white;
+}
+
+.footer-menu {
+	color: white;
+}
