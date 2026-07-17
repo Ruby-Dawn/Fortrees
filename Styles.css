@@ -188,3 +188,24 @@ form button[type="submit"]:hover {
 	background-color: #6d4500;
 }
 
+.btn-link {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #356f19;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn-link:hover {
+	background-color: #6d4500;
+}
+
+.button {
+	text-align: center;
+	width: 100%;
+}
+	
+	
