@@ -1,4 +1,8 @@
 
+html, body {
+	margin: 0;
+	padding: 0;
+}
 
 header {
 		background-color: white;
@@ -16,6 +20,25 @@ header {
 
 body {
 	background-color: white;
+}
+
+.george-section {
+	background-image: url('images/forest-stock-photo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.george {
+	color: white;
+	font-family: Trebuchet MS;
+	text-align: center;
+	font-size: 60px;
+	-webkit-text-stroke: 2px black;
 }
 
 ul {
@@ -51,6 +74,9 @@ ul li a:hover {
 	text-align: center;
 	font-size: 60px;
 }
+
+
+	
 
 p {
 	max-width: 100ch;
@@ -96,12 +122,40 @@ p {
 	padding: 0 20px;
 }
 
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	max-width: 1000px;
+	margin: 40px auto;
+	padding: 0 20px;
+	
+}
+
 .text-content {
 	flex: 1;
 	font-family: Trebuchet MS;
 	color: #6d4500;
 	font-size: 45;
 	
+}
+
+.icon-text {
+	flex: 1;
+	font-family: Trebuchet MS;
+	color: #6d4500;
+	font-size: 45;
+	vertical-align: middle;
+	
+}
+
+.pics {
+	flex: 1;
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	border: none;
 }
 
 .services-photo {
