@@ -17,6 +17,13 @@ header {
 		margin-right: auto;
 }
 
+.custom-line {
+	border: none;
+	height: 5px;
+	background-color: #356f19;
+	margin: 40px 0;
+	width: 100%;
+}
 
 body {
 	background-color: white;
@@ -115,7 +122,13 @@ ul li a:hover {
 	font-size: 60px;
 }
 
-
+h2 {
+	Color: #356f19;
+	font-family: Trebuchet MS;
+	text-align: left;
+	font-size: 40px;
+	margin: 30px;
+}
 	
 
 p {
@@ -214,10 +227,6 @@ p {
 	}
 }
 
-
-
-
-
 footer {
 	background-color: #356f19;
 	color: white;
@@ -302,4 +311,36 @@ form button[type="submit"]:hover {
 	width: 100%;
 }
 	
-	
+.image-gallery {
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.gallery-card {
+	flex: 1;
+	text-align: center;
+	border: solid #6d4500;
+	border-radius: 10px;
+}
+
+.gallery-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+
+.gallery-card h3 {
+	margin-top: 12px;
+	font-family: verdana;
+	color: #356f19;
+}
+
+.gallery-card p {
+	margin-top: 5px;
+	font-family: verdana;
+	color: #595959;
+}
