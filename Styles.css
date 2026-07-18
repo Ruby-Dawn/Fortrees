@@ -184,6 +184,18 @@ p {
 	
 }
 
+.diagram {
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	width: auto;
+	display: block;
+	max-width: 500px;
+	border: none;
+	border-radius: 20px
+	
+}
+
 .side-by-side {
 	display: flex;
 	align-items: center;
