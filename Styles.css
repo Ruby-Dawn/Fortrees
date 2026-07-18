@@ -140,6 +140,25 @@ p {
 	font-family: verdana;
 	font-size: 22px;
 }
+
+.wrap-image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: auto;
+}
+
+.clear-layout {
+	clear: both;
+}
+
+.intro {
+	display: flow-root;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
 	
 .bold {
 	max-width: 100ch;
