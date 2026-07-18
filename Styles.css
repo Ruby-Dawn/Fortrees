@@ -22,6 +22,46 @@ body {
 	background-color: white;
 }
 
+.dropdown {
+	position: relative;
+}
+
+.dropbtn {
+	background-color: #356f19;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #356f19;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #6d4500;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #6d4500;
+}
+
 .george-section {
 	background-image: url('images/forest-stock-photo.jpg');
 	background-size: cover;
