@@ -375,3 +375,36 @@ form button[type="submit"]:hover {
 	font-family: verdana;
 	color: #595959;
 }
+
+.service-list {
+	Background-color: none;
+	margin: 50px;
+	padding: 10px;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+.service-list dt {
+	Background-color: none;
+	color: White;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+.service-list dd {
+	Background-color: none;
+	color: White;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+.list {
+	background-color: #595959;
+}
+
+.serve{
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	font-family:Trebuchet MS;
+}
