@@ -87,11 +87,10 @@ header {
 }
 
 .george {
-	color: white;
-	font-family: Trebuchet MS;
+	color: #8ac6d0;
+	font-family: Lobster;
 	text-align: center;
-	font-size: 60px;
-	-webkit-text-stroke: 2px black;
+	font-size: 65px;
 }
 
 ul {
