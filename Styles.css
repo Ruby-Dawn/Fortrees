@@ -4,6 +4,10 @@ html, body {
 	padding: 0;
 }
 
+nav-menu {
+	background-color: #36213e;
+}
+
 header {
 		background-color: white;
 		display: block;
