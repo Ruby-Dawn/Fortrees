@@ -75,17 +75,6 @@ header {
 	background-color: #63768d;
 }
 
-.george-section {
-	background-image: url('images/forest-stock-photo.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .george {
 	color: #8ac6d0;
 	font-family: Georgia;
@@ -264,7 +253,7 @@ p {
 }
 
 footer {
-	background-color: #356f19;
+	background-color: #36213e;
 	color: white;
 }
 
