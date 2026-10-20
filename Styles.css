@@ -64,7 +64,7 @@ header {
 }
 
 .dropdown-content a:hover {
-	background-color: #6d4500;
+	background-color: #63768d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -72,7 +72,7 @@ header {
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #6d4500;
+	background-color: #63768d;
 }
 
 .george-section {
@@ -118,11 +118,11 @@ ul li a {
 
 ul li a:hover {
 	color: white;
-  background-color: #6d4500;
+  background-color: #63768d;
 }
 
 .heading {
-	Color: #6d4500;
+	Color: #63768d;
 	font-family: Trebuchet MS;
 	text-align: center;
 	font-size: 60px;
