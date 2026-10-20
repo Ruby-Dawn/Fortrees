@@ -40,7 +40,7 @@ header {
 }
 
 .dropbtn {
-	background-color: #356f19;
+	background-color: #36213e;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -51,7 +51,7 @@ header {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #356f19;
+	background-color: #36213e;
 	min-width: 200px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -98,7 +98,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #356f19;
+  background-color: #b8f3ff;
   display: flex;
   width: 100%;
   font-family: verdana;
@@ -129,7 +129,7 @@ ul li a:hover {
 }
 
 h2 {
-	Color: #356f19;
+	Color: #36213e;
 	font-family: Trebuchet MS;
 	text-align: left;
 	font-size: 40px;
