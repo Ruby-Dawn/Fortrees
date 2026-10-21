@@ -21,6 +21,13 @@ header {
 		margin-right: auto;
 }
 
+.header-banner {
+	height: auto;
+	display: flex;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .custom-line {
 	border: none;
 	height: 5px;
