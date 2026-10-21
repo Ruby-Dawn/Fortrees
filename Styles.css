@@ -23,7 +23,7 @@ header {
 
 .header-banner {
 	height: auto;
-	display: flex;
+	display: block;
 	margin-left: 0px;
 	margin-right: 0px;
 }
