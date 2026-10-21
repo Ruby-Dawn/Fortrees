@@ -22,7 +22,7 @@ header {
 }
 
 .header-banner {
-	height: auto;
+	height: 75%;
 	width: 100%;
 	max-width: 100%;
 	display: block;
